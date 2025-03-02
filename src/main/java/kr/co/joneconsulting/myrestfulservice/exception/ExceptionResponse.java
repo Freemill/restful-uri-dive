@@ -1,4 +1,4 @@
-package kr.co.smsconsulting.myrestfulservice.exception;
+package kr.co.joneconsulting.myrestfulservice.exception;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
@@ -10,7 +10,7 @@ import java.util.Date;
 @AllArgsConstructor
 @NoArgsConstructor
 public class ExceptionResponse {
-    private Date timeStamp;
+    private Date timestamp;
     private String message;
     private String details;
 }
